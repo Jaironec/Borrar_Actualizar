@@ -83,6 +83,7 @@ namespace AccesoDatos
 
         private void btnMostrar_Click_1(object sender, EventArgs e)
         {
+            //hola
             DataTable dt = getpersona(this.comboPersona.SelectedValue.ToString());
             //mostrar la informacion
             foreach (DataRow row in dt.Rows)
